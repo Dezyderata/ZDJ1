@@ -8,10 +8,12 @@ public class Main{
 		System.out.println("Ilu klientow chcesz wpisac:");
 		n = odczyt.nextInt();
 		LoanApplication klient = new LoanApplication();
+		klient.getPlec();
 		klient.getFirstName();
 		klient.getSurname();
 		klient.getPesel();
 		klient.getbankAccountNumber();
+		klient.getNip();
 		klient.wypisz();
 	}
 }
